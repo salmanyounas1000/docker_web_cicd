@@ -8,7 +8,7 @@ app = Flask(__name__)
 def hello():
     # We display the container ID to prove it's running inside Docker
     html = f"""
-    <h3>Hello, DevOps Engineer!</h3>
+    <h3>Hello, world!</h3>
     <b>Hostname:</b> {socket.gethostname()}<br/>
     <b>Status:</b> Application is Running!
     """
